@@ -14,6 +14,8 @@
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
+		7A4EDC9A2121964F00E2E5A6 /* SpaDemoCocoaPods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A4EDC992121964F00E2E5A6 /* SpaDemoCocoaPods.framework */; };
+		7A4EDCA02121ABBF00E2E5A6 /* CountryCode.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7A4EDC9F2121ABBF00E2E5A6 /* CountryCode.plist */; };
 		FDE5FE894EFCEC4F2A29F074 /* Pods_SpaDemoCocoaPods_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1553E345DAF25A29C91CE794 /* Pods_SpaDemoCocoaPods_Example.framework */; };
 /* End PBXBuildFile section */
 
@@ -42,6 +44,8 @@
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		75EE7113EC7BD20796B47213 /* Pods-SpaDemoCocoaPods_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpaDemoCocoaPods_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-SpaDemoCocoaPods_Example/Pods-SpaDemoCocoaPods_Example.release.xcconfig"; sourceTree = "<group>"; };
 		7A2003E1A3A2EC35B99E2A62 /* SpaDemoCocoaPods.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SpaDemoCocoaPods.podspec; path = ../SpaDemoCocoaPods.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		7A4EDC992121964F00E2E5A6 /* SpaDemoCocoaPods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SpaDemoCocoaPods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A4EDC9F2121ABBF00E2E5A6 /* CountryCode.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = CountryCode.plist; sourceTree = "<group>"; };
 		81E888FE2E94E50FE507CB0F /* Pods-SpaDemoCocoaPods_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpaDemoCocoaPods_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SpaDemoCocoaPods_Tests/Pods-SpaDemoCocoaPods_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		8BB26C3C107A69185F84AEE6 /* Pods-SpaDemoCocoaPods_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpaDemoCocoaPods_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SpaDemoCocoaPods_Tests/Pods-SpaDemoCocoaPods_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		C812152E948E4ADB8FAAAF47 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
@@ -54,6 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7A4EDC9A2121964F00E2E5A6 /* SpaDemoCocoaPods.framework in Frameworks */,
 				FDE5FE894EFCEC4F2A29F074 /* Pods_SpaDemoCocoaPods_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -110,6 +115,7 @@
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
 				607FACD31AFB9204008FA782 /* Supporting Files */,
+				7A4EDC9F2121ABBF00E2E5A6 /* CountryCode.plist */,
 			);
 			name = "Example for SpaDemoCocoaPods";
 			path = SpaDemoCocoaPods;
@@ -153,6 +159,7 @@
 		B524617CC32A8A34DD46F5E2 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				7A4EDC992121964F00E2E5A6 /* SpaDemoCocoaPods.framework */,
 				1553E345DAF25A29C91CE794 /* Pods_SpaDemoCocoaPods_Example.framework */,
 				44AFB159EC080D47F5D42208 /* Pods_SpaDemoCocoaPods_Tests.framework */,
 			);
@@ -213,10 +220,12 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = W4397NF5RZ;
 						LastSwiftMigration = 0900;
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = W4397NF5RZ;
 						LastSwiftMigration = 0900;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
@@ -248,6 +257,7 @@
 			files = (
 				607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */,
 				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
+				7A4EDCA02121ABBF00E2E5A6 /* CountryCode.plist in Resources */,
 				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -488,7 +498,9 @@
 			baseConfigurationReference = E6290F2AFA2053D3826D3158 /* Pods-SpaDemoCocoaPods_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = W4397NF5RZ;
 				INFOPLIST_FILE = SpaDemoCocoaPods/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
@@ -503,7 +515,9 @@
 			baseConfigurationReference = 75EE7113EC7BD20796B47213 /* Pods-SpaDemoCocoaPods_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = W4397NF5RZ;
 				INFOPLIST_FILE = SpaDemoCocoaPods/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
@@ -517,6 +531,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 81E888FE2E94E50FE507CB0F /* Pods-SpaDemoCocoaPods_Tests.debug.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = W4397NF5RZ;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -539,6 +554,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 8BB26C3C107A69185F84AEE6 /* Pods-SpaDemoCocoaPods_Tests.release.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = W4397NF5RZ;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",

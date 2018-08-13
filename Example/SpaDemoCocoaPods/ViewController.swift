@@ -7,13 +7,14 @@
 //
 
 import UIKit
-
+import SpaDemoCocoaPods
 class ViewController: UIViewController {
 
     @IBOutlet weak var txtFieldCountryCode: UITextField!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        txtFieldCountryCode.countryCodeFromLocals()
     }
 
     override func didReceiveMemoryWarning() {

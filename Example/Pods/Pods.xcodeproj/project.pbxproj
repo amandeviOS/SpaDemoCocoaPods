@@ -21,7 +21,7 @@
 		69DA8B003216466C60F029CBD79897F1 /* UIImage+Compare.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B5E22F9517F21D3A0251F88FCAB281E /* UIImage+Compare.m */; };
 		71C60A5A86E2363F0549DDFFF8FD4E65 /* Pods-SpaDemoCocoaPods_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FCE3ECD2C4B991D57EF9DDF89C8FEE08 /* Pods-SpaDemoCocoaPods_Example-dummy.m */; };
 		756564ABAF2892FE7140C92A1CDDCF65 /* UIImage+Snapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DBFBDCC891B770A2AC9EF0FB164B751 /* UIImage+Snapshot.m */; };
-		7AAB92E1212192B80064D40A /* FetchCoutryCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AAB92E0212192B80064D40A /* FetchCoutryCode.swift */; };
+		7A4EDC982121959700E2E5A6 /* SpaDemoCocoaPods.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A4EDC972121959700E2E5A6 /* SpaDemoCocoaPods.swift */; };
 		83378E800CEA0E135A59BB54CDB9BEC4 /* SpaDemoCocoaPods-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AAADDFE361D0C435D67851576E39548A /* SpaDemoCocoaPods-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8C9EC88C481B5B2B738BCF197A3C3D78 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1A94602875A48A997AD3F08A33E6EAA /* Foundation.framework */; };
 		9673CF780F48C8E4EC2A331717B1F67C /* FBSnapshotTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = E37899BD4B349060AA147E2A3721D3A2 /* FBSnapshotTestCase.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -92,7 +92,9 @@
 		67E276593855381568F725E69496F29C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		681F24380A8463630B843D0D00FC2C17 /* Pods-SpaDemoCocoaPods_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SpaDemoCocoaPods_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		6DF54A055C0C29A908DBBD253597C3B8 /* Pods-SpaDemoCocoaPods_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SpaDemoCocoaPods_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		7AAB92E0212192B80064D40A /* FetchCoutryCode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FetchCoutryCode.swift; path = SpaDemoCocoaPods/Classes/FetchCoutryCode.swift; sourceTree = "<group>"; };
+		7A4EDC972121959700E2E5A6 /* SpaDemoCocoaPods.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SpaDemoCocoaPods.swift; path = SpaDemoCocoaPods/Classes/SpaDemoCocoaPods.swift; sourceTree = "<group>"; };
+		7A4EDC9D2121A41E00E2E5A6 /* CountryCode.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = CountryCode.plist; sourceTree = "<group>"; };
+		7A4EDC9E2121AB3000E2E5A6 /* CountryCode.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = CountryCode.plist; sourceTree = "<group>"; };
 		7B274202A1776F1C484C27F8A22CCF30 /* SpaDemoCocoaPods-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SpaDemoCocoaPods-prefix.pch"; sourceTree = "<group>"; };
 		7B37D7C695D5C6C47A7C093595CD4F06 /* FBSnapshotTestCase.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.xcconfig; sourceTree = "<group>"; };
 		7E3DB4D092B985E76E227F7F313C6981 /* FBSnapshotTestCasePlatform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCasePlatform.h; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.h; sourceTree = "<group>"; };
@@ -175,6 +177,7 @@
 				D46600D59BC41916430DAA18CE2F3405 /* SpaDemoCocoaPods-dummy.m */,
 				7B274202A1776F1C484C27F8A22CCF30 /* SpaDemoCocoaPods-prefix.pch */,
 				AAADDFE361D0C435D67851576E39548A /* SpaDemoCocoaPods-umbrella.h */,
+				7A4EDC9D2121A41E00E2E5A6 /* CountryCode.plist */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/SpaDemoCocoaPods";
@@ -320,9 +323,10 @@
 		E5FF342EECF92BDABD14FD6C89503A03 /* SpaDemoCocoaPods */ = {
 			isa = PBXGroup;
 			children = (
-				7AAB92E0212192B80064D40A /* FetchCoutryCode.swift */,
 				B9446DC23D8F3013CEED296AABE66A2B /* Pod */,
 				0F17E53E56752A9A462F39EE4A492F6A /* Support Files */,
+				7A4EDC972121959700E2E5A6 /* SpaDemoCocoaPods.swift */,
+				7A4EDC9E2121AB3000E2E5A6 /* CountryCode.plist */,
 			);
 			name = SpaDemoCocoaPods;
 			path = ../..;
@@ -481,6 +485,11 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0930;
 				LastUpgradeCheck = 0930;
+				TargetAttributes = {
+					37867B6C8432B87C3B124B29BEC20C87 = {
+						LastSwiftMigration = 0930;
+					};
+				};
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -525,7 +534,6 @@
 			files = (
 				506D761F91EC3583789A837C559972FE /* FBSnapshotTestCase-dummy.m in Sources */,
 				BE14F2198CDB0DAD98A567981D21C7A1 /* FBSnapshotTestCase.m in Sources */,
-				7AAB92E1212192B80064D40A /* FetchCoutryCode.swift in Sources */,
 				DB7A106243AC974FC7EBEB00B506C786 /* FBSnapshotTestCasePlatform.m in Sources */,
 				A4F69F3477A935285620AC3031C5C848 /* FBSnapshotTestController.m in Sources */,
 				1AB7934C16CE49DE196FFC7BE7278287 /* SwiftSupport.swift in Sources */,
@@ -540,6 +548,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7A4EDC982121959700E2E5A6 /* SpaDemoCocoaPods.swift in Sources */,
 				DC99B1E3C594552F186EF7B982338A82 /* SpaDemoCocoaPods-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -572,6 +581,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 9663B14DDD357DA3A2AD43DC491DE5C1 /* SpaDemoCocoaPods.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -640,6 +650,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 9663B14DDD357DA3A2AD43DC491DE5C1 /* SpaDemoCocoaPods.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
