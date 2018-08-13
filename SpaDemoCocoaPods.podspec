@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+'This pod was created to provide corner radius and borderColor to UIView'
                        DESC
 
   s.homepage         = 'https://github.com/amandeviOS/SpaDemoCocoaPods'
@@ -30,13 +30,13 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'SpaDemoCocoaPods/Classes/**/*'
+  s.source_files = 'SpaDemoCocoaPods/Classes/*.swift'
   
   # s.resource_bundles = {
   #   'SpaDemoCocoaPods' => ['SpaDemoCocoaPods/Assets/*.png']
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
+  s.frameworks = 'UIKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 end

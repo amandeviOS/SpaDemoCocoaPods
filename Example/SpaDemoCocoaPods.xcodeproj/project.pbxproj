@@ -41,12 +41,12 @@
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		75EE7113EC7BD20796B47213 /* Pods-SpaDemoCocoaPods_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpaDemoCocoaPods_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-SpaDemoCocoaPods_Example/Pods-SpaDemoCocoaPods_Example.release.xcconfig"; sourceTree = "<group>"; };
-		7A2003E1A3A2EC35B99E2A62 /* SpaDemoCocoaPods.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = SpaDemoCocoaPods.podspec; path = ../SpaDemoCocoaPods.podspec; sourceTree = "<group>"; };
+		7A2003E1A3A2EC35B99E2A62 /* SpaDemoCocoaPods.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SpaDemoCocoaPods.podspec; path = ../SpaDemoCocoaPods.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		81E888FE2E94E50FE507CB0F /* Pods-SpaDemoCocoaPods_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpaDemoCocoaPods_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SpaDemoCocoaPods_Tests/Pods-SpaDemoCocoaPods_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		8BB26C3C107A69185F84AEE6 /* Pods-SpaDemoCocoaPods_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpaDemoCocoaPods_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SpaDemoCocoaPods_Tests/Pods-SpaDemoCocoaPods_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		C812152E948E4ADB8FAAAF47 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		C812152E948E4ADB8FAAAF47 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		E6290F2AFA2053D3826D3158 /* Pods-SpaDemoCocoaPods_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpaDemoCocoaPods_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SpaDemoCocoaPods_Example/Pods-SpaDemoCocoaPods_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		F8EB970E1F56BC7790F30A95 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		F8EB970E1F56BC7790F30A95 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */

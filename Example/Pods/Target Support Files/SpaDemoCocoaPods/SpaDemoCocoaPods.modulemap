@@ -1,0 +1,6 @@
+framework module SpaDemoCocoaPods {
+  umbrella header "SpaDemoCocoaPods-umbrella.h"
+
+  export *
+  module * { export * }
+}

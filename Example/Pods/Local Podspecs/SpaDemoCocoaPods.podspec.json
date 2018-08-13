@@ -1,0 +1,22 @@
+{
+  "name": "SpaDemoCocoaPods",
+  "version": "0.1.0",
+  "summary": "A short description of SpaDemoCocoaPods.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/amandeviOS/SpaDemoCocoaPods",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "amandeviOS": "amandev.s@spa-systems.com"
+  },
+  "source": {
+    "git": "https://github.com/amandeviOS/SpaDemoCocoaPods.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "SpaDemoCocoaPods/Classes/**/*"
+}
